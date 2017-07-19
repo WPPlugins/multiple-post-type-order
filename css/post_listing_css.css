@@ -1,0 +1,31 @@
+.mpto-post-listing .blog-image {
+    width: 36%;
+    float: left;
+    padding: 0 15px;
+}
+.mpto-post-listing .blog-image  img{
+    max-width: 100%;
+}
+.mpto-post-listing .mpto-content {
+    width: 64%;
+    padding: 0 15px;
+    float: left;
+}
+.mpto-post-listing .mpto-content .entry-content{
+    float: none !important;
+    width: 100% !important; 
+}
+.mpto-row{
+    margin: 0 -15px;
+}
+.mpto-row:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.mpto-post-listing article {
+    padding-top: 25px;
+}
+.mpto-post-listing .entry-header h2{
+    margin-bottom: 0em;
+}
